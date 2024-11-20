@@ -1,184 +1,70 @@
-# Blog Frontend Application
+# Getting Started with Create React App
 
-## Project Overview
-A modern, responsive blog application built with React, Material-UI, and Tailwind CSS. This frontend integrates with the backend API to provide a seamless blog experience.
-
-## Prerequisites
-- Node.js (v18 or later)
-- npm or yarn
-
-## Project Structure
-```
-src/
-│
-├── apiService/      # API call services
-├── assets/
-│   ├── fonts/       # Custom font files
-│   ├── images/      # Static images
-│   └── styles/      # Global CSS and styling
-├── components/      # Reusable React components
-├── hooks/           # Custom React hooks
-├── pages/           # Page-level components
-└── utils/           # Utility functions
-```
-
-## Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/ShubhamRaskar00/Blog-Frontend-Application.git
-cd Blog-Frontend-Application
-```
-
-### 2. Install Dependencies
-```bash
-npm install
-# or
-yarn install
-```
-
-### 3. Environment Configuration
-Create a `.env` file in the root directory:
-```
-REACT_APP_BASE_URL=http://localhost:5001/api
-```
-
-## Dependencies Overview
-
-### Core Libraries
-- React 18
-- React Router DOM
-- Axios for API calls
-
-### UI Libraries
-- Material-UI (MUI)
-- Tailwind CSS
-- React Hot Toast (Notifications)
-
-### Utility Libraries
-- Day.js (Date manipulation)
-- Web Vitals
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-### Development Server
-```bash
-npm start
-# or
-yarn start
-```
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000)
+In the project directory, you can run:
 
-### Build for Production
-```bash
-npm run build
-# or
-yarn build
-```
-Builds the app for production in the `build` folder.
+### `npm start`
 
-## Application Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Authentication
-- Login Page
-- Signup Page
-- JWT Token-based Authentication
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Blog Functionality
-- Create New Blog Post
-- Update Existing Blog Post
-- View All Blog Posts
-- View Individual Blog Post
-- Filter Posts by Tags
+### `npm test`
 
-## Pages/Components
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Authentication
-- `/login`: User login interface
-- `/register`: User registration interface
+### `npm run build`
 
-### Blog Management
-- `/`: Home page with blog post list
-- `/posts`: Create a new blog post
-- `/posts/:id`: Update an existing blog post
-- `/posts/:id`: Detailed view of a specific blog post
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## State Management
-- React Context API or Redux (if complex state management is required)
-- Local Storage for persisting authentication tokens
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## API Integration
-- Axios-based API service
-- Centralized API call management
-- Error handling
-- Loading states
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Styling
-- Material-UI components
-- Tailwind CSS for utility classes
-- Responsive design
-- Custom theme configuration
+### `npm run eject`
 
-## Performance Optimization
-- Code splitting
-- Lazy loading of components
-- Memoization of heavy components
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Error Handling
-- Global error boundary
-- Toast notifications
-- Graceful error display
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Security Considerations
-- Secure route protection
-- JWT token management
-- Input validation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Deployment Preparation
-- Environment-specific configurations
-- Build optimization
-- Potential Docker containerization
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Testing
-- Jest for unit testing
-- React Testing Library
-- Component snapshot testing
+## Learn More
 
-## Recommended VS Code Extensions
-- ESLint
-- Prettier
-- React Developer Tools
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Continuous Integration
-- Setup GitHub Actions or similar CI/CD pipeline
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Contributing
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
+### Code Splitting
 
-## Performance Monitoring
-- Integrate Web Vitals
-- Use React DevTools
-- Performance profiling
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Accessibility
-- Semantic HTML
-- ARIA attributes
-- Keyboard navigation support
+### Analyzing the Bundle Size
 
-## Browser Support
-- Modern browsers
-- Recommended: Latest versions of Chrome, Firefox, Safari, Edge
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-## Contact
-SR SHUBH
-shubhamraskar69@gmail.com
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Additional Resources
-- [React Documentation](https://reactjs.org/)
-- [Material-UI Documentation](https://mui.com/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
